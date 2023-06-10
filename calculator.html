@@ -22,7 +22,7 @@ padding: 5px 0;
 font-size: 40px;  
 font-weight: bold;  
 text-align: center;  
-color: red;  
+color: rgb(0, 255, 38);  
 font-family: 'Cookie', cursive;  
 }  
 input[type=button] {  
@@ -32,7 +32,7 @@ input[type=button] {
   padding: 0;  
   margin: 5px;  
   box-sizing: border-box;  
-  background: #ecedef;  
+  background: #ffffff;  
   border: none;  
   font-size: 30px;  
   line-height: 30px;  
@@ -49,7 +49,7 @@ input[type=text] {
   box-sizing: border-box;  
   border: none;  
   background: none;  
-  color: red;  
+  color: rgb(53, 188, 0);  
   text-align: right;  
   font-weight: 700;  
   font-size: 60px;  
@@ -65,12 +65,12 @@ input[type=text] {
 #display {  
   height: 80px;  
   text-align: right;  
-  background-color: black;  
-  border: 3px solid white;  
+  background-color: rgb(126, 202, 209);  
+  border: 3px solid rgb(255, 1, 1);  
   font-size: 18px;  
   left: 2px;  
   top: 2px;  
-  color: red;  
+  color: rgb(6, 5, 5);  
 }  
 .btnTop {  
   color: white;  
@@ -83,8 +83,7 @@ input[type=text] {
     </style>  
 </head>  
 <body>  
-    <div class = "title"  align="center">  
-frg    </div>  
+    <div class = "title"  align="center"> Simple calculator </div>  
     <form name="Calculator" class = "calculator" >  
 <table border="2" align="center" cellpadding="15" cellspacing="12" bgcolor="#c0c0c0">  
 <tr>  
@@ -95,7 +94,7 @@ frg    </div>
 </tr>  
 <tr>  
 <td>  
-<input type="button" name = "one" style="font-size:30px" value="== " OnClick="Calculator.Input.value += '1'">  
+<input type="button" name = "one" style="font-size:30px" value="1 " OnClick="Calculator.Input.value += '1'">  
 <input type="button" name = "two" style = "font-size:30px" value=" 2 " OnCLick="Calculator.Input.value += '2'">  
 <input type="button" name = "three" style="font-size:30px" value=" 3 " OnClick="Calculator.Input.value += '3'">  
 <input type="button" name="add" class ="btnTop" style="font-size:30px" value=" + " OnClick="Calculator.Input.value += ' + '">  
